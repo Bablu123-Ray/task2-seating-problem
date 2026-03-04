@@ -1,0 +1,28 @@
+Brute Force Seating Arrangement Example
+
+Students: A, B, C
+
+Rules:
+1. Friends should not sit next to each other.
+2. Students from the same city should not sit next to each other.
+
+Possible Seating Arrangements:
+
+1. ABC
+2. ACB
+3. BAC
+4. BCA
+5. CAB
+6. CBA
+
+Each arrangement is checked to see whether any two neighboring students
+break the rules.
+
+Example Check:
+
+Arrangement: ABC
+Check A-B → Are they friends or from same city?
+Check B-C → Are they friends or from same city?
+
+If no rule is broken, the seating arrangement is valid.
+Otherwise, it is rejected.
